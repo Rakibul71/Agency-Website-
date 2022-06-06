@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-// import Footer from '../.next/components/Footer'
-// import Navbar from '../.next/components/Navbar'
+import Intro from '../components/Intro'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,8 +11,7 @@ export default function Home() {
         <meta name="description" content="This is Rakib agency page " />
       </Head>
 
-      {/* This is home page */}
-      <h1 className={styles.name}>Rakib</h1>
+      <Intro />
 
 
 
