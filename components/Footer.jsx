@@ -12,13 +12,13 @@ export const Footer = () => {
           <Link href="/contact" className={styles.link} passHref>
             <>
               <span className={styles.linkText}>WORK WITH US</span>
-              <Image src={"/img/link.png"} width="40px" height="40px" alt="" />
+              <Image src="/img/link.png" width="40px" height="40px" alt="" />
             </>
           </Link>
         </h1>
       </div>
 
-      <div className={styles.carS}>
+      <div className={styles.cardS}>
         <div className={styles.cardItem}>
           45 ADAM STREET,
           <br /> USA
