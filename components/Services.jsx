@@ -22,6 +22,7 @@ const Services = ({ services }) => {
                       src={`/img/${service.video}`}
                       autoPlay
                       loop
+                      muted
                     />
                   ) : (
                     <Image
